@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    
+    <head>
+        <link rel="stylesheet" type="text/css" href="./newcss.css">
+        <title>Welcome Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="header">
+        
+        <h1 align="center">Navaranga Agency Database System</h1> </div>
+        <div id="body">
+        <h2 align="center">Welcome New User</h2>
+        <h3 align="center">Register yourself if you haven't already!</h3>
+        <form action="ServletLogin">
+        <table align="center">
+                <tr><td><b>Name</b></td><td> <input type="text" name="NewUser"></td></tr>
+                <tr><td><b>Password</b></td><td><input type="password" name="NewUserPassword"></td></tr>
+                <tr><td><b>Role</b></td><td>
+                        <select name="Role">
+                            <option disabled selected value> -- Your choice -- </option>
+                            <option>Customer</option>
+                            <option>Admin</option>
+                        </select>
+                    </td></tr>
+                <tr><td><b>Gender</b></td><td>
+                        <select name="Gender"><option>Male</option>
+                            <option>Female</option>
+                            <option>Others</option>
+                        </select></td></tr>
+          
+                
+                <tr><td><input type="submit" value="Sign Up"></td></tr>
+                 
+        </table>       
+        
+        </form></div>
+        
+        <div id="footer">
+        <form action="http://localhost:8080/Project_Dad/HomePage.html">
+        <table align="center">
+            <tr><br></tr>
+            <br><tr><td><input type="submit" value="Cancel"></td>
+            <td><span class="psw">Forgot <a href="#">password?</a></span></td></tr>
+        </table>
+        </form>
+        </div>
+        
+        </body>
+</html>
